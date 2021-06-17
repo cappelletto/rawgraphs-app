@@ -113,13 +113,17 @@ export const SCALES_LABELS = {
 }
 
 export const COLOR_SCHEMES_LABELS = {
+  "interpolateViridis": "Viridis", 
+  "interpolateYlOrRd": "YlOrRd sequential",
+  "interpolateGreys": "Greys sequential",  // add Greys (testbase)
+  "interpolateInferno": "Inferno sequential",  // add Inferno (as in matplotlib)
   "interpolateBlues": "Blue sequential",
   "interpolateGreens": "Green sequential",
   "interpolateReds": "Red sequential",
   "interpolateRdBu": "RdBu diverging",
   "interpolateBrBG": "BrBG diverging",
   "interpolatePiYG": "PiYG diverging",
+  "interpolateTurbo": "Turbo diverging",
+  "interpolateSpectral": "Spectral diverging",
   "schemeCategory10": "Categorical 10",
-  "interpolateTurbo": "Turbo discrete",
-  "interpolateSpectral": "Spectral discrete"
 }
