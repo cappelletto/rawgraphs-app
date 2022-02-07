@@ -1,3 +1,44 @@
+## netx
+
+#### Changes
+
+- bugfix calendar heatmap
+
+
+## 2.0.0-beta.13
+
+#### Changes
+
+- update d3 to 7.2.0
+- update rawgraphs-charts to 1.0.0-beta.27
+#### New Features
+
+- added Voronoi Treemap
+- added Calendar Heatmap
+- copy dataset to clipboard
+- editable sparql query and api url in data loader
+
+## 2.0.0-beta.12
+
+#### Changes
+
+- update Sparql editor
+- set sparql base iri to wikidata
+- add wikidata prefixes autoamtically in sparql queries
+- setup Google Analytics to track usage of charts
+- fix min node version to Node14
+
+## 2.0.0-beta.11
+
+#### New Features
+
+- added Slope chart
+- added Pie chart
+
+#### Changes
+
+- update rawgraphs-charts to 1.0.0-beta.26
+
 ## 2.0.0-beta.10
 
 #### New Features

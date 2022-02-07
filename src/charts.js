@@ -13,20 +13,25 @@ import {
   contourPlot,
   convexHull,
   dendrogram,
+  ganttChart,
   hexagonalBinning,
+  horizongraph,
   linechart,
   matrixplot,
+  parallelcoordinates,
+  piechart,
   radarchart,
   sankeydiagram,
+  slopechart,
   streamgraph,
   sunburst,
   treemap,
   violinplot,
-  ganttChart,
   voronoidiagram,
-  horizongraph,
-  parallelcoordinates,
+  voronoitreemap,
 } from '@rawgraphs/rawgraphs-charts'
+
+import { calendarHeatmap } from '@rawgraphs/rawgraphs-calendar-heatmap'
 
 // New charts, not included into first release.
 // Comment at necessity.
@@ -40,6 +45,7 @@ let charts = [
   boxplot,
   bubblechart,
   bumpchart,
+  calendarHeatmap,
   circlepacking,
   circularDendrogram,
   contourPlot,
@@ -51,13 +57,18 @@ let charts = [
   linechart,
   matrixplot,
   parallelcoordinates,
+  piechart,
   radarchart,
   sankeydiagram,
+  slopechart,
   streamgraph,
   sunburst,
   treemap,
   violinplot,
   voronoidiagram,
+  voronoitreemap,
+
+  
 ]
 
 export default charts
